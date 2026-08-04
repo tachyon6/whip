@@ -1,0 +1,28 @@
+{
+  "name": "whip",
+  "version": "0.1.0",
+  "description": "A focused agent skill for lean, clear, high-compliance prompts.",
+  "author": {
+    "name": "Aaron",
+    "url": "https://github.com/tachyon6"
+  },
+  "homepage": "https://github.com/tachyon6/whip",
+  "repository": "https://github.com/tachyon6/whip",
+  "license": "MIT",
+  "keywords": ["prompt-engineering", "agent-skills", "prompt-linting"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Whip",
+    "shortDescription": "Cut prompt noise without cutting intent",
+    "longDescription": "Write, tighten, and audit agent prompts by removing repetition, surfacing conflicts, scoping rules, and preserving critical constraints.",
+    "developerName": "Aaron",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "defaultPrompt": [
+      "Tighten this prompt without changing its intent.",
+      "Audit these agent instructions for duplication and conflicts.",
+      "Write the smallest prompt that reliably produces this outcome."
+    ],
+    "websiteURL": "https://github.com/tachyon6/whip"
+  }
+}

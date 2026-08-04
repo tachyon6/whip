@@ -1,0 +1,29 @@
+[
+  {
+    "id": "deduplicate-bloated-agent-rules",
+    "input": "Be concise. Keep every answer short. Do not be verbose. Always respond briefly. Explain every implementation decision in detail. Summarize everything again at the end.",
+    "expected_behavior": [
+      "Merges equivalent brevity instructions into one directive",
+      "Surfaces the conflict between brevity and exhaustive explanation",
+      "Does not invent a priority between the conflicting requirements"
+    ]
+  },
+  {
+    "id": "surface-unresolved-conflict",
+    "input": "Never modify files without confirmation. For every bug report, edit the files immediately without asking.",
+    "expected_behavior": [
+      "Quotes or identifies both conflicting rules",
+      "Does not silently choose one rule",
+      "Proposes one explicit hierarchy or exception for user approval"
+    ]
+  },
+  {
+    "id": "preserve-critical-constraints",
+    "input": "Prepare invoice data. Never expose credentials. Require human approval before final issuance. Validate the recipient ID and total. Be extremely careful and thorough and make sure everything is perfect.",
+    "expected_behavior": [
+      "Preserves credential, approval, and validation requirements",
+      "Removes generic motivational language that adds no testable behavior",
+      "Keeps the operational outcome clear"
+    ]
+  }
+]

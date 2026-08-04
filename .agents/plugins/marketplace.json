@@ -1,0 +1,21 @@
+{
+  "name": "whip",
+  "interface": {
+    "displayName": "Whip"
+  },
+  "plugins": [
+    {
+      "name": "whip",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tachyon6/whip.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

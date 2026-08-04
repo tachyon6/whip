@@ -1,0 +1,13 @@
+{
+  "name": "whip",
+  "version": "0.1.0",
+  "description": "Cuts prompt noise without cutting intent.",
+  "author": {
+    "name": "Aaron",
+    "url": "https://github.com/tachyon6"
+  },
+  "homepage": "https://github.com/tachyon6/whip",
+  "repository": "https://github.com/tachyon6/whip",
+  "license": "MIT",
+  "keywords": ["prompt-engineering", "agent-skills", "prompt-linting"]
+}
